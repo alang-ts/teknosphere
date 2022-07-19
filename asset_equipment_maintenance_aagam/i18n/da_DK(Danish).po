@@ -1,0 +1,567 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* asset_equipment_maintenance_aagam
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 06:14+0000\n"
+"PO-Revision-Date: 2022-02-20 06:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,body_html:asset_equipment_maintenance_aagam.maintenance_repaire_mail
+msgid ""
+"\n"
+"          \n"
+"              Dear ${object.employee_id.name},\n"
+"              <br/><br/>\n"
+"              your maintenance has been Repaired\n"
+"              \n"
+"        "
+msgstr "Kære ${object.employee_id.name},\n  <br/><br/>\n  din vedligeholdelse er blevet repareret\n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,body_html:asset_equipment_maintenance_aagam.maintenance_scrap_mail
+msgid ""
+"\n"
+"          \n"
+"              Dear ${object.employee_id.name},\n"
+"              <br/><br/>\n"
+"              your maintenance has been Scrap\n"
+"              \n"
+"        "
+msgstr "\n" Kære ${object.employee_id.name},\n  <br/><br/>\n din vedligeholdelse er blevet skrot\n \n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,body_html:asset_equipment_maintenance_aagam.maintenance_inprogress_mail
+msgid ""
+"\n"
+"          \n"
+"              Dear ${object.employee_id.name},\n"
+"              <br/><br/>\n"
+"              your maintenance has been in progress \n"
+"              \n"
+"        "
+msgstr "\n Kære ${object.employee_id.name},\n  <br/><br/>\n  din vedligeholdelse har været i gang \n \n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__checklist_ids
+msgid "Check"
+msgstr "Kontrollere"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#, python-format
+msgid "CheckList"
+msgstr "Tjekliste"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__checklist_line_ids
+msgid "CheckList Lines"
+msgstr "Tjeklistelinjer"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__name
+msgid "Checklist Name"
+msgstr "Tjeklistenavn"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_res_company
+msgid "Companies"
+msgstr "Virksomheder"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfigurer opsætning"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Create Maintenance job Order"
+msgstr "Opret ordre til vedligeholdelsesjob"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Create Material Purchase Requisition"
+msgstr "Opret materialekøbsrekvisition"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__create_uid
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__create_uid
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__create_uid
+msgid "Created by"
+msgstr "Lavet af"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__create_date
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__create_date
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__create_date
+msgid "Created on"
+msgstr "Oprettet den"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__desc
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__desc
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__desc
+msgid "Description"
+msgstr "Beskrivelse"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__location_id
+msgid "Destination Location"
+msgstr "Destinationsplacering"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_equipment__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_stage__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_purchase_requisition__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_company__display_name
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Vis navn"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_company__email_validation
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+msgid "Email Confirmation"
+msgstr "email bekræftelse"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_config_settings__email_validation
+msgid "Email Confirmation picking"
+msgstr "Valg af e-mailbekræftelse"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+msgid "Email Template"
+msgstr "E-mail skabelon"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_company__confirmation_template_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_config_settings__confirmation_template_id
+msgid "Email Template confirmation picking"
+msgstr "Valg af bekræftelse af e-mailskabelon"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,help:asset_equipment_maintenance_aagam.field_res_company__confirmation_template_id
+#: model:ir.model.fields,help:asset_equipment_maintenance_aagam.field_res_config_settings__confirmation_template_id
+msgid "Email sent to the customer once the maintenance state is change."
+msgstr "E-mail sendt til kunden, når vedligeholdelsestilstanden er ændret."
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__equipment_ids
+msgid "Eqipment"
+msgstr "Udstyr"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__maintenance_equipment_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__equipment_id
+#, python-format
+msgid "Equipment"
+msgstr "Udstyr"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.actions.act_window,name:asset_equipment_maintenance_aagam.action_purchase_requisition
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.main_purchase_requisition_menu
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.purchase_requisition_menu
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.sub_purchase_requisition_menu
+#, python-format
+msgid "Equipment Purchase Requisition"
+msgstr "Rekvisition til indkøb af udstyr"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__partner_req_vendor_id
+msgid "Equipment Purchase Requisition Vendor"
+msgstr "Leverandør af indkøb af udstyr"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__priority__3
+msgid "High"
+msgstr "Høj"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_equipment__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_stage__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_purchase_requisition__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_company__id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__state__in_progress
+#, python-format
+msgid "In Progress"
+msgstr "I gang"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__is_project_task
+msgid "Is Job Order ?"
+msgstr "Er joborden?"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__is_material_requisition
+msgid "Is Material Requisition?"
+msgstr "Er materialerekvisition?"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_purchase_requisition__is_requisition
+msgid "Is Order From Maintenance Requisition?"
+msgstr "Er ordre fra vedligeholdelsesrekvisition?"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task__is_order
+msgid "Is Order From Requisition?"
+msgstr "Er ordre fra rekvisition?"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.actions.act_window,name:asset_equipment_maintenance_aagam.job_action
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__project_task_id
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.job_menu
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.main_job_menu
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.sub_job_menu
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Job Order"
+msgstr "Jobbestilling"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_equipment____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_stage____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_purchase_requisition____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_company____last_update
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Sidst ændret den"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__write_uid
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__write_uid
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__write_uid
+msgid "Last Updated by"
+msgstr "Sidst opdateret af"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__write_date
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__write_date
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__write_date
+msgid "Last Updated on"
+msgstr "Sidst opdateret den"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__priority__1
+msgid "Low"
+msgstr "Lav"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+#, python-format
+msgid "Maintenance"
+msgstr "Vedligeholdelse"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_equipment__check_ids
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.configure_checklist_form
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.configure_checklist_tree
+#, python-format
+msgid "Maintenance CheckList"
+msgstr "Vedligeholdelsestjekliste"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.menu_maintenance_checklist
+msgid "Maintenance CheckLists"
+msgstr "Vedligeholdelsestjeklister"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.actions.act_window,name:asset_equipment_maintenance_aagam.config_checklist_action
+msgid "Maintenance Checklists"
+msgstr "Vedligeholdelsestjeklister"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.actions.client,name:asset_equipment_maintenance_aagam.dashboard_action
+#: model:ir.ui.menu,name:asset_equipment_maintenance_aagam.maintenance_dashboard_menu
+#, python-format
+msgid "Maintenance Dashboard"
+msgstr "Vedligeholdelse Dashboard"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_maintenance_equipment
+#, python-format
+msgid "Maintenance Equipment"
+msgstr "Vedligeholdelsesudstyr"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.maintenance_material_form
+msgid "Maintenance Equipment Checklists"
+msgstr ""
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,subject:asset_equipment_maintenance_aagam.maintenance_inprogress_mail
+msgid ""
+"Maintenance InProgress\n"
+"        "
+msgstr "Igangværende vedligeholdelse\n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.maintenance_material_form
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Maintenance Plan Material"
+msgstr "Materiale til vedligeholdelsesplan"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,subject:asset_equipment_maintenance_aagam.maintenance_repaire_mail
+msgid ""
+"Maintenance Repaired\n"
+"        "
+msgstr "Vedligeholdelse repareret\n"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_maintenance_request
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__maintenance_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist__maintenance_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_checklist_line__maintenance_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task__maintenance_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_purchase_requisition__maintenance_id
+#, python-format
+msgid "Maintenance Request"
+msgstr "Anmodning om vedligeholdelse"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Maintenance Request CheckList"
+msgstr "Tjekliste for vedligeholdelsesanmodninger"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#, python-format
+msgid "Maintenance Requests"
+msgstr "Vedligeholdelsesanmodninger"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:mail.template,subject:asset_equipment_maintenance_aagam.maintenance_scrap_mail
+msgid ""
+"Maintenance Scrap\n"
+"        "
+msgstr "Vedligeholdelsesskrot\n"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_maintenance_stage
+msgid "Maintenance Stage"
+msgstr "Vedligeholdelse stadie"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js:0
+#, python-format
+msgid "Maintenance Team"
+msgstr "Vedligeholdelsesteam"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.view_hr_equipment_request_stock
+msgid "Material Purchase Requisition"
+msgstr "Materialekøbsrekvisition"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__state__new
+#, python-format
+msgid "New Request"
+msgstr "Ny anmodning"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__priority__2
+msgid "Normal"
+msgstr "Normal"
+
+#. module: asset_equipment_maintenance_aagam
+#: code:addons/asset_equipment_maintenance_aagam/models/maintenance_request.py:0
+#, python-format
+msgid "Please Select Destination Location."
+msgstr "Vælg venligst destinationsplacering."
+
+#. module: asset_equipment_maintenance_aagam
+#: code:addons/asset_equipment_maintenance_aagam/models/maintenance_request.py:0
+#, python-format
+msgid "Please Select Equipment Material Line."
+msgstr "Vælg venligst udstyrsmaterialelinje."
+
+#. module: asset_equipment_maintenance_aagam
+#: code:addons/asset_equipment_maintenance_aagam/models/maintenance_request.py:0
+#, python-format
+msgid "Please Select Equipment Purchase Requisition Vendor."
+msgstr "Vælg venligst Leverandør af indkøbsrekvisitioner."
+
+#. module: asset_equipment_maintenance_aagam
+#: code:addons/asset_equipment_maintenance_aagam/models/maintenance_request.py:0
+#, python-format
+msgid "Please Select Scheduled Date."
+msgstr "Vælg venligst planlagt dato."
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__priority
+msgid "Priority"
+msgstr "Prioritet"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_purchase_requisition
+msgid "Purchase Requisition"
+msgstr "Indkøbs rekvisition"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__qty
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__qty
+msgid "Quantity"
+msgstr "Antal"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__state__repair
+#, python-format
+msgid "Repaired"
+msgstr "Repareret"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__state__scrap
+#, python-format
+msgid "Scrap"
+msgstr "Skrot"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+msgid "Send an email when click on button"
+msgstr "Send en e-mail, når du klikker på knappen"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_project_task__sequence_num
+msgid "Sequence"
+msgstr "Sekvens"
+
+#. module: asset_equipment_maintenance_aagam
+#: model_terms:ir.ui.view,arch_db:asset_equipment_maintenance_aagam.res_config_settings_view_form
+msgid "Shipping"
+msgstr "Forsendelse"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#, python-format
+msgid "Stage"
+msgstr "Forsendelse"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__state
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_stage__status
+msgid "Status"
+msgstr "Status"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_project_task
+msgid "Task"
+msgstr "Opgave"
+
+#. module: asset_equipment_maintenance_aagam
+#. openerp-web
+#: code:addons/asset_equipment_maintenance_aagam/static/src/xml/maintenance_dashboard.xml:0
+#, python-format
+msgid "Team"
+msgstr "Hold"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__uom_id
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_request__uom_id
+msgid "UOM"
+msgstr "UOM"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields.selection,name:asset_equipment_maintenance_aagam.selection__maintenance_request__priority__0
+msgid "Very Low"
+msgstr "Meget lav"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_equipment_part_line
+msgid "equipment.part.line"
+msgstr ""
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_maintenance_equipment__line_ids
+msgid "line"
+msgstr "linje"
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_maintenance_checklist
+msgid "maintenance.checklist"
+msgstr ""
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model,name:asset_equipment_maintenance_aagam.model_maintenance_checklist_line
+msgid "maintenance.checklist.line"
+msgstr ""
+
+#. module: asset_equipment_maintenance_aagam
+#: model:ir.model.fields,field_description:asset_equipment_maintenance_aagam.field_equipment_part_line__product_id
+msgid "product"
+msgstr "produkt"

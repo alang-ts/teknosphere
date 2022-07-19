@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+        <record id="hr_equipment_stage_view_tree_inherit_asset" model="ir.ui.view">
+            <field name="name">maintenance.stage.tree.stock</field>
+            <field name="model">maintenance.stage</field>
+            <field name="inherit_id" ref="maintenance.hr_equipment_stage_view_tree"/>
+            <field name="arch" type="xml">
+                <field name="done" position="after">
+                    <field name="status"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_hr_equipment_request_stock" model="ir.ui.view">
+            <field name="name">maintenance.request.form.stock</field>
+            <field name="model">maintenance.request</field>
+            <field name="inherit_id" ref="maintenance.hr_equipment_request_view_form"/>
+            <field name="arch" type="xml">
+                <header>
+                    <button string="Create Maintenance job Order" name="create_job_order" class="oe_highlight" type="object" attrs="{'invisible': [('is_project_task', '!=', False)]}"/>
+                    <button string="Create Material Purchase Requisition" name="create_purchase_requisition" class="oe_highlight" type="object" attrs="{'invisible': [('is_material_requisition', '!=', False)]}"/>
+                </header>
+                 <xpath expr="//form/sheet/group" position="before">
+                        <div class='oe_button_box' name="button_box">
+                            <button name="display_job_order" type="object"  icon="fa-pencil-square-o" string="Job Order" attrs="{'invisible': [('is_project_task', '=', False)]}"/>
+                            <button name="display_purchase_requisition" type="object"  icon="fa-shopping-cart" string="Material Purchase Requisition" attrs="{'invisible': [('is_material_requisition', '=', False)]}"/>
+                        </div>
+                     </xpath>
+            	<field name="priority" position="after">
+                        <field name="partner_req_vendor_id"/>
+                        <field name="location_id" />
+                        <field name="is_project_task" invisible="True"/>
+                        <field name="is_material_requisition" invisible="True"/>
+                        </field>
+                <field name="description" position="after">
+                        <notebook>
+                            <page string="Maintenance Request CheckList">
+                                <field name="checklist_line_ids" widget="one2many">
+                                    <tree>
+                                        <field name="name"/>
+                                        <field name="desc"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Maintenance Plan Material">
+                               <field name="equipment_ids" nolable='1' groups="maintenance.group_equipment_manager,purchase.group_purchase_manager,stock.group_stock_manager">
+                                    <tree editable="top">
+                                        <field name="product_id"/>
+                                        <field name="qty"/>
+                                        <field name="uom_id"/>
+                                    </tree>
+                                 </field>
+                            </page>
+                        </notebook>
+                </field>
+
+                </field>
+        </record>
+
+	</data>
+</odoo>
