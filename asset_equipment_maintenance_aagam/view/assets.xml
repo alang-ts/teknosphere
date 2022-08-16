@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend_dashboard" name="Dashboard Inherit" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript"
+              src="/asset_equipment_maintenance_aagam/static/src/js/maintenance_dashboard.js"/>
+            <script type="text/javascript"
+              src="/asset_equipment_maintenance_aagam/static/src/js/jquery.dataTables.min.js"/>
+               <script type="text/javascript" src="/asset_equipment_maintenance_aagam/static/src/js/datatables.min.js"/>
+                <script type="text/javascript" src="/asset_equipment_maintenance_aagam/static/src/js/dataTables.buttons.min.js"/>
+                <script type="text/javascript" src="/asset_equipment_maintenance_aagam/static/src/js/Chart.js"/>
+                <link rel="stylesheet" href="/asset_equipment_maintenance_aagam/static/src/css/nv.d3.css"/>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+                <link rel="stylesheet" type="text/css" href="asset_equipment_maintenance_aagam/static/src/scss/new_css.css"/>
+<!--                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>-->
+        </xpath>
+    </template>
+</odoo>
